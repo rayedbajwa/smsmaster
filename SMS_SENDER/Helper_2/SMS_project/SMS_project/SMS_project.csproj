@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B6C511AB-5A06-47B2-9B0B-4D7251A258F0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SMS_project</RootNamespace>
+    <AssemblyName>SMS_project</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>SMS_project.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="GSMCommServer">
+      <HintPath>..\..\SMS\SMS_project\SMS_project\SMS_project\bin\Debug\GSMCommServer.dll</HintPath>
+    </Reference>
+    <Reference Include="GSMCommShared">
+      <HintPath>..\..\SMS\SMS_project\SMS_project\SMS_project\bin\Debug\GSMCommShared.dll</HintPath>
+    </Reference>
+    <Reference Include="GSMCommunication">
+      <HintPath>..\..\SMS\SMS_project\SMS_project\SMS_project\bin\Debug\GSMCommunication.dll</HintPath>
+    </Reference>
+    <Reference Include="PDUConverter">
+      <HintPath>..\..\SMS\SMS_project\SMS_project\SMS_project\bin\Debug\PDUConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="skincrafter_.net4.5_vs2012">
+      <HintPath>..\..\..\..\..\..\..\Program Files\SkinCrafter3\SkinCrafterDemo\SkinCrafterDotNet\skincrafter_.net4.5_vs2012.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAbout.Designer.cs">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddcontact.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddcontact.Designer.cs">
+      <DependentUpon>frmAddcontact.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAutoresponder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAutoresponder.Designer.cs">
+      <DependentUpon>frmAutoresponder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCalendar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCalendar.Designer.cs">
+      <DependentUpon>frmCalendar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDraft.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDraft.Designer.cs">
+      <DependentUpon>frmDraft.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditcontact.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditcontact.Designer.cs">
+      <DependentUpon>frmEditcontact.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddsched.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddsched.Designer.cs">
+      <DependentUpon>frmAddsched.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditGroup.Designer.cs">
+      <DependentUpon>frmEditGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditSched.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditSched.Designer.cs">
+      <DependentUpon>frmEditSched.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddGroup.Designer.cs">
+      <DependentUpon>frmAddGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNewSMS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNewSMS.Designer.cs">
+      <DependentUpon>frmNewSMS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSentitems.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSentitems.Designer.cs">
+      <DependentUpon>frmSentitems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSettings.Designer.cs">
+      <DependentUpon>frmSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSMSmain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSMSmain.Designer.cs">
+      <DependentUpon>frmSMSmain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSplash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSplash.Designer.cs">
+      <DependentUpon>frmSplash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSubscription.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSubscription.Designer.cs">
+      <DependentUpon>frmSubscription.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frnAccountsetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frnAccountsetting.Designer.cs">
+      <DependentUpon>frnAccountsetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAbout.resx">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddcontact.resx">
+      <DependentUpon>frmAddcontact.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddGroup.resx">
+      <DependentUpon>frmAddGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAutoresponder.resx">
+      <DependentUpon>frmAutoresponder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCalendar.resx">
+      <DependentUpon>frmCalendar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDraft.resx">
+      <DependentUpon>frmDraft.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditcontact.resx">
+      <DependentUpon>frmEditcontact.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddsched.resx">
+      <DependentUpon>frmAddsched.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditGroup.resx">
+      <DependentUpon>frmEditGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditSched.resx">
+      <DependentUpon>frmEditSched.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNewSMS.resx">
+      <DependentUpon>frmNewSMS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSentitems.resx">
+      <DependentUpon>frmSentitems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSettings.resx">
+      <DependentUpon>frmSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSMSmain.resx">
+      <DependentUpon>frmSMSmain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSplash.resx">
+      <DependentUpon>frmSplash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSubscription.resx">
+      <DependentUpon>frmSubscription.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frnAccountsetting.resx">
+      <DependentUpon>frnAccountsetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
