@@ -1,0 +1,75 @@
+C:\Users\Jared\documents\visual studio 2013\Projects\SMS_project\SMS_project\bin\Debug\SMS_project.exe.config
+C:\Users\Jared\documents\visual studio 2013\Projects\SMS_project\SMS_project\bin\Debug\SMS_project.exe
+C:\Users\Jared\documents\visual studio 2013\Projects\SMS_project\SMS_project\bin\Debug\SMS_project.pdb
+C:\Users\Jared\documents\visual studio 2013\Projects\SMS_project\SMS_project\bin\Debug\skincrafter_.net4.5_vs2012.dll
+C:\Users\Jared\documents\visual studio 2013\Projects\SMS_project\SMS_project\obj\Debug\SMS_project.frmAbout.resources
+C:\Users\Jared\documents\visual studio 2013\Projects\SMS_project\SMS_project\obj\Debug\SMS_project.frmAddcontact.resources
+C:\Users\Jared\documents\visual studio 2013\Projects\SMS_project\SMS_project\obj\Debug\SMS_project.frmCalendar.resources
+C:\Users\Jared\documents\visual studio 2013\Projects\SMS_project\SMS_project\obj\Debug\SMS_project.frmEditcontact.resources
+C:\Users\Jared\documents\visual studio 2013\Projects\SMS_project\SMS_project\obj\Debug\SMS_project.frmAddsched.resources
+C:\Users\Jared\documents\visual studio 2013\Projects\SMS_project\SMS_project\obj\Debug\SMS_project.frmEditSched.resources
+C:\Users\Jared\documents\visual studio 2013\Projects\SMS_project\SMS_project\obj\Debug\SMS_project.frmSettings.resources
+C:\Users\Jared\documents\visual studio 2013\Projects\SMS_project\SMS_project\obj\Debug\SMS_project.Properties.Resources.resources
+C:\Users\Jared\documents\visual studio 2013\Projects\SMS_project\SMS_project\obj\Debug\SMS_project.csproj.GenerateResource.Cache
+C:\Users\Jared\documents\visual studio 2013\Projects\SMS_project\SMS_project\obj\Debug\SMS_project.exe
+C:\Users\Jared\documents\visual studio 2013\Projects\SMS_project\SMS_project\obj\Debug\SMS_project.pdb
+C:\Users\Jared\documents\visual studio 2013\Projects\SMS_project\SMS_project\obj\Debug\SMS_project.csprojResolveAssemblyReference.cache
+C:\Users\Jared\documents\visual studio 2013\Projects\SMS_project\SMS_project\obj\Debug\SMS_project.frmSMSmain.resources
+C:\Users\Jared\documents\visual studio 2013\Projects\SMS_project\SMS_project\obj\Debug\SMS_project.frmNewSMS.resources
+C:\Users\Jared\documents\visual studio 2013\Projects\SMS_project\SMS_project\obj\Debug\SMS_project.frmAddGroup.resources
+C:\Users\Jared\documents\visual studio 2013\Projects\SMS_project\SMS_project\obj\Debug\SMS_project.frmEditGroup.resources
+C:\Users\Jared\documents\visual studio 2013\Projects\SMS_project\SMS_project\obj\Debug\SMS_project.frmAutoresponder.resources
+C:\Users\Jared\documents\visual studio 2013\Projects\SMS_project\SMS_project\obj\Debug\SMS_project.frmSentitems.resources
+C:\Users\Jared\documents\visual studio 2013\Projects\SMS_project\SMS_project\obj\Debug\SMS_project.frmDraft.resources
+C:\Users\Jared\documents\visual studio 2013\Projects\SMS_project\SMS_project\obj\Debug\SMS_project.frmSplash.resources
+C:\Users\Jared\documents\visual studio 2013\Projects\SMS_project\SMS_project\obj\Debug\SMS_project.frmSubscription.resources
+C:\Users\RnB\Desktop\SMS_project\SMS_project\bin\Debug\SMS_project.exe.config
+C:\Users\RnB\Desktop\SMS_project\SMS_project\obj\Debug\SMS_project.exe
+C:\Users\RnB\Desktop\SMS_project\SMS_project\obj\Debug\SMS_project.pdb
+C:\Users\RnB\Desktop\SMS_project\SMS_project\bin\Debug\SMS_project.exe
+C:\Users\RnB\Desktop\SMS_project\SMS_project\bin\Debug\SMS_project.pdb
+C:\Users\RnB\Desktop\SMS_project\SMS_project\obj\Debug\SMS_project.csprojResolveAssemblyReference.cache
+C:\Users\RnB\Desktop\SMS_project\SMS_project\obj\Debug\SMS_project.frmAbout.resources
+C:\Users\RnB\Desktop\SMS_project\SMS_project\obj\Debug\SMS_project.frmAddcontact.resources
+C:\Users\RnB\Desktop\SMS_project\SMS_project\obj\Debug\SMS_project.frmAddGroup.resources
+C:\Users\RnB\Desktop\SMS_project\SMS_project\obj\Debug\SMS_project.frmAutoresponder.resources
+C:\Users\RnB\Desktop\SMS_project\SMS_project\obj\Debug\SMS_project.frmCalendar.resources
+C:\Users\RnB\Desktop\SMS_project\SMS_project\obj\Debug\SMS_project.frmDraft.resources
+C:\Users\RnB\Desktop\SMS_project\SMS_project\obj\Debug\SMS_project.frmEditcontact.resources
+C:\Users\RnB\Desktop\SMS_project\SMS_project\obj\Debug\SMS_project.frmAddsched.resources
+C:\Users\RnB\Desktop\SMS_project\SMS_project\obj\Debug\SMS_project.frmEditGroup.resources
+C:\Users\RnB\Desktop\SMS_project\SMS_project\obj\Debug\SMS_project.frmEditSched.resources
+C:\Users\RnB\Desktop\SMS_project\SMS_project\obj\Debug\SMS_project.frmNewSMS.resources
+C:\Users\RnB\Desktop\SMS_project\SMS_project\obj\Debug\SMS_project.frmSentitems.resources
+C:\Users\RnB\Desktop\SMS_project\SMS_project\obj\Debug\SMS_project.frmSettings.resources
+C:\Users\RnB\Desktop\SMS_project\SMS_project\obj\Debug\SMS_project.frmSMSmain.resources
+C:\Users\RnB\Desktop\SMS_project\SMS_project\obj\Debug\SMS_project.frmSplash.resources
+C:\Users\RnB\Desktop\SMS_project\SMS_project\obj\Debug\SMS_project.frmSubscription.resources
+C:\Users\RnB\Desktop\SMS_project\SMS_project\obj\Debug\SMS_project.frnAccountsetting.resources
+C:\Users\RnB\Desktop\SMS_project\SMS_project\obj\Debug\SMS_project.Properties.Resources.resources
+C:\Users\RnB\Desktop\SMS_project\SMS_project\obj\Debug\SMS_project.csproj.GenerateResource.Cache
+C:\Users\faisal\Desktop\SMS_project\SMS_project\bin\Debug\SMS_project.exe.config
+C:\Users\faisal\Desktop\SMS_project\SMS_project\obj\Debug\SMS_project.exe
+C:\Users\faisal\Desktop\SMS_project\SMS_project\obj\Debug\SMS_project.pdb
+C:\Users\faisal\Desktop\SMS_project\SMS_project\bin\Debug\SMS_project.exe
+C:\Users\faisal\Desktop\SMS_project\SMS_project\bin\Debug\SMS_project.pdb
+C:\Users\faisal\Desktop\SMS_project\SMS_project\obj\Debug\SMS_project.csprojResolveAssemblyReference.cache
+C:\Users\faisal\Desktop\SMS_project\SMS_project\obj\Debug\SMS_project.frmAbout.resources
+C:\Users\faisal\Desktop\SMS_project\SMS_project\obj\Debug\SMS_project.frmAddcontact.resources
+C:\Users\faisal\Desktop\SMS_project\SMS_project\obj\Debug\SMS_project.frmAddGroup.resources
+C:\Users\faisal\Desktop\SMS_project\SMS_project\obj\Debug\SMS_project.frmAutoresponder.resources
+C:\Users\faisal\Desktop\SMS_project\SMS_project\obj\Debug\SMS_project.frmCalendar.resources
+C:\Users\faisal\Desktop\SMS_project\SMS_project\obj\Debug\SMS_project.frmDraft.resources
+C:\Users\faisal\Desktop\SMS_project\SMS_project\obj\Debug\SMS_project.frmEditcontact.resources
+C:\Users\faisal\Desktop\SMS_project\SMS_project\obj\Debug\SMS_project.frmAddsched.resources
+C:\Users\faisal\Desktop\SMS_project\SMS_project\obj\Debug\SMS_project.frmEditGroup.resources
+C:\Users\faisal\Desktop\SMS_project\SMS_project\obj\Debug\SMS_project.frmEditSched.resources
+C:\Users\faisal\Desktop\SMS_project\SMS_project\obj\Debug\SMS_project.frmNewSMS.resources
+C:\Users\faisal\Desktop\SMS_project\SMS_project\obj\Debug\SMS_project.frmSentitems.resources
+C:\Users\faisal\Desktop\SMS_project\SMS_project\obj\Debug\SMS_project.frmSettings.resources
+C:\Users\faisal\Desktop\SMS_project\SMS_project\obj\Debug\SMS_project.frmSMSmain.resources
+C:\Users\faisal\Desktop\SMS_project\SMS_project\obj\Debug\SMS_project.frmSplash.resources
+C:\Users\faisal\Desktop\SMS_project\SMS_project\obj\Debug\SMS_project.frmSubscription.resources
+C:\Users\faisal\Desktop\SMS_project\SMS_project\obj\Debug\SMS_project.frnAccountsetting.resources
+C:\Users\faisal\Desktop\SMS_project\SMS_project\obj\Debug\SMS_project.Properties.Resources.resources
+C:\Users\faisal\Desktop\SMS_project\SMS_project\obj\Debug\SMS_project.csproj.GenerateResource.Cache

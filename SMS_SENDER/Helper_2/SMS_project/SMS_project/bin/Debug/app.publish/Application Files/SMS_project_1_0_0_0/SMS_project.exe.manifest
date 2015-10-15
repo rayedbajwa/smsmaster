@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="SMS_project.exe" version="1.0.0.0" publicKeyToken="13b9aca028b67ff2" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="SMS_project" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="SMS_project.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GSMCommServer.dll" size="24576">
+      <assemblyIdentity name="GSMCommServer" version="1.11.0.0" publicKeyToken="515D87DF384DCC81" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>7Aq73Pp8PF81fDptUTtJ95X68rN0D3r/usNkKrtSs4o=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GSMCommShared.dll" size="16384">
+      <assemblyIdentity name="GSMCommShared" version="1.11.0.0" publicKeyToken="515D87DF384DCC81" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>cqrXlUzuAVnpp4X581uz1hnbdaxT0Yy8QS9xCIual1Q=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GSMCommunication.dll" size="90112">
+      <assemblyIdentity name="GSMCommunication" version="1.11.0.0" publicKeyToken="515D87DF384DCC81" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>7vQK9jKFkfsakldrlmS8rhDqjyB/NjilkWxc3MiFPRg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PDUConverter.dll" size="57344">
+      <assemblyIdentity name="PDUConverter" version="1.11.0.0" publicKeyToken="515D87DF384DCC81" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>e40iqz3PPlvby1+0d3NTe1Zf5cWWmzxNGPn5e8i2RWA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="skincrafter_.net4.5_vs2012.dll" size="941568">
+      <assemblyIdentity name="skincrafter_.net4.5_vs2012" version="3.8.1.0" publicKeyToken="93FE95F9332F7EB7" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>RQu005v/jre2E+ci2FS6wJZ/9xST5xuqhQOvSdPIBU4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SMS_project.exe" size="896000">
+      <assemblyIdentity name="SMS_project" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>nGEUCBlMYw8PLvmIiWCJioK7wTBWlHmj6FmUQrS4hzc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="SMS_project.exe.config" size="184">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FqWy0dfMmRS85zkU1NlW07p6LsNOPUHodvLiZcFdgJY=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=tablet\rayed" issuerKeyHash="65e2fe5071a87147182883b4e927bae648a786d6" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>5aJ+LIAW5bpxvWlH5haGeQkjmpL7w0fewkSIQ4DUfIU=</DigestValue></Reference></SignedInfo><SignatureValue>gH4099uvYKaECT4OJkP/XaX1WEnHL8AhCidDb2tNliVP/B8zrI58ZwZ4KfPS07Og4FpuF7/R8qJjya8dGrYIk00aNPpMnW/IzM3toYShDaTCs0BrbBmW71AE0Y0EvQ2c45vu6zg1kfeZYbPBZJPUEGL/w42fVerI90xcZwvKx8Y=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>qKgaXqhSt6hVWMDI5820T5+PKMnI4Hd3vI48HMmuo6fFbWUT+lIwL1tkiThiulBUruPz7BC9wl73kiizYn8gAZ+X1SpjURr1Lm/7j4iCkLyVf+C+vTgQH0oLOI/gUXk75p5kkJZLo0J6AgMEDgHEfWy3Wdhzqq6acBo9eUUToRs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="857cd480438844c2de47c3fb929a2309798616e64769bd71bae516802c7ea2e5" Description="" Url=""><as:assemblyIdentity name="SMS_project.exe" version="1.0.0.0" publicKeyToken="13b9aca028b67ff2" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=tablet\rayed</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>R35ALXArFnUGQdOY7WxI2aXJEYnYmmvxjOWLJ7KujGE=</DigestValue></Reference></SignedInfo><SignatureValue>IQxHmDv2FwvJOe3n4gQdWSohM5ykN3Kt241V7HuexGzD/RPAO4Zman8Oy8Woim6vvRZso1LShQ72DpCblldbuS7KMnVuDWmIUL1HizrMZ2dcESixFA825klDw4A0CtkQxtldQ7oXGDkaiPWnQ5o5LDJxzSg4KDZtdF0qPTZ34Vs=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>qKgaXqhSt6hVWMDI5820T5+PKMnI4Hd3vI48HMmuo6fFbWUT+lIwL1tkiThiulBUruPz7BC9wl73kiizYn8gAZ+X1SpjURr1Lm/7j4iCkLyVf+C+vTgQH0oLOI/gUXk75p5kkJZLo0J6AgMEDgHEfWy3Wdhzqq6acBo9eUUToRs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQG6aJlo55g4BNvanBvZDu3DANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDHhgAdABhAGIAbABlAHQAXAByAGEAeQBlAGQwHhcNMTQwODE3MTM0NzAwWhcNMTUwODE3MTk0NzAwWjAjMSEwHwYDVQQDHhgAdABhAGIAbABlAHQAXAByAGEAeQBlAGQwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKioGl6oUreoVVjAyOfNtE+fjyjJyOB3d7yOPBzJrqOnxW1lE/pSMC9bZIk4YrpQVK7j8+wQvcJe95Ios2J/IAGfl9UqY1Ea9S5v+4+IgpC8lX/gvr04EB9KCziP4FF5O+aeZJCWS6NCegIDBA4BxH1st1nYc6qumnAaPXlFE6EbAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAeW4OrfM5cu8QsoD30L4gyLcGYiFPVyifJv4VZfnux7m4tFAIXoRSSLs5mvqg5H3LzM5RPC0YbylQDCVJTHrBEwCXBXHH1rYpg/qTIKkTLNLxXaJnB1UOVR4e2+lXpA9bWm0FQkusxibN53EUOqK3Ym3+xsgG+c91dNaqLT78aoo=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
